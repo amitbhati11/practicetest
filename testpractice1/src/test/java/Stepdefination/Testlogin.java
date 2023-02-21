@@ -42,6 +42,6 @@ testprojectpages tpp;
 
 	@Then("navigate to  Home page")
 	public void navigate_to_home_page() {
-	   
+	   System.out.println("navigate to home page");
 	}
 }
