@@ -122,5 +122,23 @@ public class Revresenumber {
 	
 		
 	}
-
+	
+	@Test
+	
+	//reverse string
+	
+	public void testrevrse()
+	{
+	String st="amit123";
+		
+		String b=" ";
+		for(int i=st.lenght()-1;i>=0;i--){
+			    b=b+st.charAT(i);
+		}
+		System.out.println("revrsevalue :"+b);
+			
+	}	
+		
+		
+		
 }
